@@ -1,4 +1,4 @@
-MNIST Digit Recognition Project 📊
+# MNIST Digit Recognition Project 📊
 
 Este proyecto utiliza técnicas avanzadas de procesamiento de imágenes y machine learning para reconocer dígitos del conjunto de datos MNIST. Incluye funcionalidades para entrenamiento de modelos, pruebas, y una interfaz de usuario interactiva para demostración.
 Descripción del Problema
