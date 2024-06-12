@@ -1,0 +1,9 @@
+numpy==1.22.0
+opencv-python==4.5.5.64
+scikit-learn==1.0.1
+mediapipe==0.8.9.1
+tkinter  # Normalmente viene preinstalado con Python, no necesita ser listado, pero tenlo en cuenta.
+joblib==1.1.0
+subprocess.run  # Parte de la biblioteca estándar de Python.
+pillow  # Opcional, si estás manejando imágenes fuera de OpenCV.
+pickle-mixin==1.0.2

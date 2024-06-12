@@ -40,7 +40,7 @@ with open('../models/pca.pkl', 'wb') as f:  # Guardar el modelo PCA en un archiv
 
 # Entrenar el modelo SVM con PCA
 print("Entrenando el modelo SVM con PCA...")
-classifier = SVC(kernel="linear", random_state=6)  # Crear una instancia del clasificador SVM con kernel lineal
+classifier = SVC(kernel="linear")  # Crear una instancia del clasificador SVM con kernel lineal
 classifier.fit(X_train_pca, y_train)  # Entrenar el modelo con los datos de entrenamiento reducidos
 with open('../models/svc_digit_classifier_with_pca.pkl', 'wb') as f:  # Guardar el modelo entrenado en un archivo
     pickle.dump(classifier, f)
